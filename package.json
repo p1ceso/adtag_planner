@@ -1,0 +1,36 @@
+{
+  "name": "adtag_planner",
+  "version": "1.0.0",
+  "description": "ADTAG Planner Pro - Gestão Ministerial",
+  "homepage": "https://p1ceso.github.io/adtag_planner",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.94.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.28.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.13.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.23",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "supabase": "^2.75.5",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1"
+  }
+}
